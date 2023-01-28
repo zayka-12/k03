@@ -8,15 +8,15 @@ string? seriesOfNumbers = Console.ReadLine();
 
 seriesOfNumbers = seriesOfNumbers + ",";
 
-string RemovingSpaces (String series)
+string RemovingSpaces(String series)
 {
-   string seriesNew = "";
-   for (int i = 0; i < series.Length; i++)
+  string seriesNew = "";
+  for (int i = 0; i < series.Length; i++)
   {
-     if (series[i] != ' ')
-     {
-       seriesNew += seriesOfNumbers[i];
-     }
+    if (series[i] != ' ')
+    {
+      seriesNew += seriesOfNumbers[i];
+    }
   }
-return seriesNew;   
+  return seriesNew;
 }
